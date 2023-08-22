@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+          crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="cadastro.jsp" method="get" class="w-50 mx-auto">
+            <h1 class="text-center mb-4">Bem Vindo a Central Baterias</h1>
+            <div class="mb-3">
+                <label for="nomeBateria" class="form-label">Nome</label>
+                     <input type="text" class="form-control" id="nomeBateria" name="nomeBateria">
+            </div>
+            <div class="mb-3">
+                <label for="valorBateria" class="form-label">Preço</label>
+                    <input type="number" class="form-control" id="valorBateria" name="valorBateria">
+            </div>
+            <div class="mb-3">
+                <label for="ampereBateria" class="form-label">Ampere</label>
+                    <input type="text" class="form-control" id="ampereBateria" name="ampereBateria">
+            </div>        
+            <div class="mb-3">
+                <label for="quantidade" class="form-label">Quantidade</label>
+                    <input type="number" class="form-control" id="quantidade" name="quantidade">
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Cadastrar bateria</button>
+        </form>
+    </div>
+</body>
+</html>
