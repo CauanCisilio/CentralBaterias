@@ -4,6 +4,10 @@
     Author     : cauan
 --%>
 
+<%@page import="java.util.ArrayList"%>
+<%@page import="javax.swing.table.DefaultTableModel"%>
+<%@page import="Model.ConexaoDAO"%>
+<%@page import="javax.swing.JOptionPane"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,9 +16,8 @@
         <title>Cadastro (Central Baterias)</title>
     </head>
     <body>
-        <% for(int i = 0; i<10; i++){           
-        %> 
-        <h1>Hello World!</h1> 
-        <% } %>
+        <%
+           
+        %>
     </body>
 </html>

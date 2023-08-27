@@ -14,7 +14,8 @@
         <h1 class="text-white">Bem vindo a central baterias</h1>
     </nav>
     <div class=" mt-5">
-        <form action="cadastro.jsp" method="get" class="p-4 w-25 bg-white  mx-auto">           
+         
+        <form action="cadastro.jsp" method="post" class="p-4 w-25 bg-white  mx-auto">           
             <div class="mb-3">     
                      <input type="text" placeholder="Nome da bateria" class="form-control" id="nomeBateria" name="nomeBateria">
             </div>
@@ -22,12 +23,21 @@
                     <input type="number" placeholder="valor da bateria R$" class="form-control" id="valorBateria" name="valorBateria">
             </div>
             <div class="mb-3 d-flex mb-3 ">           
-                    <input type="text" placeholder="Ampere" class="form-control" id="ampereBateria" name="ampereBateria">               
-                    <input type="number" placeholder="Quantidade" class="form-control" id="quantidade" name="quantidade">
+                    <input type="text" placeholder="Ampere" class="form-control" id="ampereBateria" name="ampereBateria">                                
+            </div>
+            <div class="mb-3 d-flex mb-3 "> 
+            <input type="number" placeholder="Quantidade" class="form-control" id="quantidade" name="quantidade">
             </div>
             <button type="submit" class="btn bg-primary text-white w-100">Cadastrar bateria</button>
+           
+               <a href="visualizaBaterias.jsp" class="btn text-center text-white bg-primary border-0 mx-auto form-control m-3">
+                Visualizar baterias</a>
+    
         </form>
     </div>
+   
+        
+       
     <section class="bg-dark container-fluid">
         
     </section>
